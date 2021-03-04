@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    text-shadow: 1px 1px gray;
+    font-size: 40px;
+}
+
+
+h2, h3{
+    text-shadow: 1px 1px gray;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textinfo {
+    width: 90%;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: justifiy;
+}
+
+body{
+    background-color: GhospptWhite;
+    border:gainsboro double;
+
+}
+
+.photos img {
+    margin: 0px 2px 10px 2px;
+    padding: 0px 10px 5px 10px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:  auto;
+    height: auto;
+    object-fit: cover;  
+
+}
+
+#myvideo{
+  width: 50%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    font-style: normal;
+    border-collapse: collapse;
+    text-align: center;
+    width: 25%;
+}
+
+th{
+    background: coral;
+    font-family: monospace;
+    border: 1px solid black;
+}
+
+td{
+    font-family: monospace;
+    background: cyan;
+    border: dimgrey;
+    border: 1px solid black;
+}
